@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .div{
+        border: 2px solid;
+        padding: 10px;
+        height: 500px;
+        background-color:black;
+        display: flex;
+        flex-direction:column;
+        margin-top: 10px;
+        overflow: hidden;
+       }
+       .div1{
+        border:2px solid white;
+        padding:20px ;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+        gap: 10px;
+       }
+       .div2{
+        border: 2px solid white;
+        padding: 20px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color:gray;
+       }
+       .div3{
+        border: 2px solid white;
+        padding: 20px;
+        height: 100px;
+        background-color: burlywood;
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       img{
+        width: 100px;
+        height: 100px;
+       }
+       .div1 div{
+        border: 2px solid white;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .a5{
+        flex-grow: 1;
+       }
+       .div2 div{
+        border: 2px solid white;
+        padding: 10px;
+        width: 100px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .b2{
+        flex-grow: 1;
+        flex-shrink: 0;
+       }
+       .div3 div{
+        border: 2px solid white;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -12px;
+       }
+       .c4{
+        flex-grow: 1;
+       }
+    </style>
+</head>
+<body>
+    <h1 align="center">Images in Flexbox Layout</h1>
+    <div class="div">
+        <div class="div1">
+           <div class="a1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST0LyF9D1gAkoqsjKAgLZ5SFI6xfk9ERj3gg&s"/>
+           </div>
+           <div class="a2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaFbf1d4kWsB6bdNji4I7_dTNE9FLwGJgwg&s"/>
+           </div>
+           <div class="a3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQquEbeH6zu0_P8db-EyIb1Ijec9OMfbGNVyQ&s"/>
+           </div>
+           <div class="a4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4jjZ4N98WgbE7AxGKAzMPJ1GMCzT6dnkhhg&s"/> 
+           </div>
+           <div class="a5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrFWcChIl_KaM2VM42xj6gacDAH4eZ3YIMvw&s"/>
+           </div>
+        </div>
+        <div class="div2">
+            <div class="b1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwBrJqzZPqyPnEZ9np2K0ID1FvvOT7xaX72w&s"/>
+            </div>
+            <div class="b2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2jL_ElM_7CFwvGG1S4CyyfiH-0WwZ2IJNw&s"/>
+            </div>
+            <div class="b3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTYvNyH7vRiKF279igzWLsdollXkpiz6PSOw&s"/>
+            </div>
+            <div class="b4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWs97i9QlNNs1hdGN0HFqK6LPKFKi7IvkOw&s"/>
+            </div>
+        </div>
+        <div class="div3">
+            <div class="c1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXjNOB-QksGTBTW9y-w6qEDQ-TBT7bGo21g&s"/>
+            </div>
+            <div class="c2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBp6dyV2IDv-lr1iA46x1IcL-FBA2HjFPhg&s"/>
+            </div>
+            <div class="c3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3BqipAX3lxJUp6YU2L4l4CtZaB2ysuWhGg&s"/>
+            </div>
+            <div class="c4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiNP3noobUry0SD8X0BuSrMBn2lUXUMi7G5g&s"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
